@@ -1149,6 +1149,30 @@
   itemDrop: FloorTileItemShuttleRed
   heatCapacity: 10000
 
+- type: tile #Naakas-Lounge addition
+  id: FloorShuttleGreen
+  name: tiles-green-shuttle-floor
+  sprite: /Textures/Tiles/shuttlegreen.png
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemShuttleGreen
+  heatCapacity: 10000
+
+- type: tile #Naakas-Lounge addition
+  id: FloorShuttleOlive
+  name: tiles-olive-shuttle-floor
+  sprite: /Textures/Tiles/shuttleolive.png
+  baseTurf: Plating
+  isSubfloor: false
+  canCrowbar: true
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemShuttleOlive
+  heatCapacity: 10000
+
 
 # Materials
 - type: tile

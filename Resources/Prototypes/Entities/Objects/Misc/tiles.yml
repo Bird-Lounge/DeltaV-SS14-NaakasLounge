@@ -677,6 +677,38 @@
   - type: Stack
     stackType: FloorTileStackShuttleRed
 
+- type: entity #Naakas-Lounge addition
+  name: green shuttle floor
+  parent: FloorTileItemBase
+  id: FloorTileItemShuttleGreen
+  components:
+  - type: Sprite
+    state: shuttlegreen
+  - type: Item
+    heldPrefix: shuttlegreen
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorShuttleGreen
+  - type: Stack
+    stackType: FloorTileStackShuttleGreen
+
+- type: entity #Naakas-Lounge addition
+  name: olive shuttle floor
+  parent: FloorTileItemBase
+  id: FloorTileItemShuttleOlive
+  components:
+  - type: Sprite
+    state: shuttleolive
+  - type: Item
+    heldPrefix: shuttleolive
+  - type: FloorTile
+    outputs:
+      - Plating
+      - FloorShuttleOlive
+  - type: Stack
+    stackType: FloorTileStackShuttleOlive
+
 # Materials
 - type: entity
   name: gold floor
