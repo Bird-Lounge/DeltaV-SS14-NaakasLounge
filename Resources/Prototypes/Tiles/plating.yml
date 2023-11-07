@@ -48,4 +48,19 @@
   isSpace: true
   itemDrop: PartRodMetal1
   heatCapacity: 10000
+ 
+ - type: tile #Naakas-Lounge addition
+  id: LatticeDiagonal
+  name: tiles-lattice-diagonal
+  sprite: /Textures/Tiles/lattice_diag.png
+  baseTurf: Space
+  isSubfloor: true
+  canWirecutter: true
+  weather: true
+  footstepSounds:
+    collection: FootstepPlating
+  friction: 0.3
+  isSpace: true
+  itemDrop: PartRodMetal1
+  heatCapacity: 10000
 
