@@ -50,9 +50,9 @@
   heatCapacity: 10000
 
 - type: tile #Naakas-Lounge addition
-  id: LatticeDiagonal
-  name: tiles-lattice-diagonal
-  sprite: /Textures/Tiles/lattice_diag.png
+  id: LatticeDiagonalNW
+  name: tiles-lattice-diagonalNW
+  sprite: /Textures/Tiles/lattice_diag_nw.png
   baseTurf: Space
   isSubfloor: true
   canWirecutter: true
@@ -64,3 +64,47 @@
   itemDrop: PartRodMetal1
   heatCapacity: 10000
 
+- type: tile #Naakas-Lounge addition
+  id: LatticeDiagonalNE
+  name: tiles-lattice-diagonalNE
+  sprite: /Textures/Tiles/lattice_diag_ne.png
+  baseTurf: Space
+  isSubfloor: true
+  canWirecutter: true
+  weather: true
+  footstepSounds:
+    collection: FootstepPlating
+  friction: 0.3
+  isSpace: true
+  itemDrop: PartRodMetal1
+  heatCapacity: 10000
+
+- type: tile #Naakas-Lounge addition
+  id: LatticeDiagonalSE
+  name: tiles-lattice-diagonalSE
+  sprite: /Textures/Tiles/lattice_diag_se.png
+  baseTurf: Space
+  isSubfloor: true
+  canWirecutter: true
+  weather: true
+  footstepSounds:
+    collection: FootstepPlating
+  friction: 0.3
+  isSpace: true
+  itemDrop: PartRodMetal1
+  heatCapacity: 10000
+
+- type: tile #Naakas-Lounge addition
+  id: LatticeDiagonalSW
+  name: tiles-lattice-diagonalSW
+  sprite: /Textures/Tiles/lattice_diag_sw.png
+  baseTurf: Space
+  isSubfloor: true
+  canWirecutter: true
+  weather: true
+  footstepSounds:
+    collection: FootstepPlating
+  friction: 0.3
+  isSpace: true
+  itemDrop: PartRodMetal1
+  heatCapacity: 10000
