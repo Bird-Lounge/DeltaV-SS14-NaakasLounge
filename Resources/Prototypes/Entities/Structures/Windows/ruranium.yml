@@ -63,7 +63,6 @@
     sprite: Structures/Windows/diagonal.rsi
     state: rustate0
   - type: IconSmooth
-    key: ruwindow
     base: rustate
   - type: Icon
     sprite: Structures/Windows/diagonal.rsi

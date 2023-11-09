@@ -55,7 +55,6 @@
     sprite: Structures/Windows/diagonal.rsi
     state: ustate0
   - type: IconSmooth
-    key: uwindow
     base: ustate
   - type: Icon
     sprite: Structures/Windows/diagonal.rsi

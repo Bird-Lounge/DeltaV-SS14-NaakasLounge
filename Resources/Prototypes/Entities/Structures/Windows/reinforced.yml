@@ -118,7 +118,6 @@
     sprite: Structures/Windows/diagonal.rsi
     state: rwstate0
   - type: IconSmooth
-    key: rwindow
     base: rwstate
   - type: Icon
     sprite: Structures/Windows/diagonal.rsi
