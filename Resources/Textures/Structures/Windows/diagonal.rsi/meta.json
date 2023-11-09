@@ -8,10 +8,10 @@
     "copyright": "Sprited by PuroSlavKing (Github) for Space Station 14",
     "states": [
         {
-            "name": "state0"
+            "name": "wstate0"
         },
         {
-            "name": "state1"
+            "name": "wstate1"
         },
 		{
             "name": "tstate0"
@@ -32,10 +32,10 @@
             "name": "ustate1"
         },
 		{
-            "name": "rstate0"
+            "name": "rwstate0"
         },
         {
-            "name": "rstate1"
+            "name": "rwstate1"
         },
 		{
             "name": "rtstate0"
@@ -54,24 +54,6 @@
         },
         {
             "name": "rustate1"
-        },
-		{
-            "name": "state0"
-        },
-        {
-            "name": "state1"
-        },
-		{
-            "name": "tstate0"
-        },
-        {
-            "name": "tstate1"
-        },
-		{
-            "name": "pstate0"
-        },
-        {
-            "name": "pstate1"
         }
     ]
 }

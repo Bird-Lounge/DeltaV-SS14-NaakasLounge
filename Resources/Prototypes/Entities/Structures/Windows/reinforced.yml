@@ -116,14 +116,13 @@
   - type: Sprite
     drawdepth: WallTops
     sprite: Structures/Windows/diagonal.rsi
-    state: rstate0
+    state: rwstate0
   - type: IconSmooth
-    mode: Diagonal
     key: rwindow
-    base: rstate
+    base: rwstate
   - type: Icon
     sprite: Structures/Windows/diagonal.rsi
-    state: rstate0
+    state: rwstate0
   - type: Repairable
     fuelCost: 10
     doAfterDelay: 2
@@ -152,8 +151,6 @@
             max: 2
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
-  - type: IconSmooth
-    base: rwindow
   - type: Construction
     graph: Window
     node: reinforcedWindow

@@ -92,7 +92,6 @@
     sprite: Structures/Windows/diagonal.rsi
     state: pstate0
   - type: IconSmooth
-    mode: Diagonal
     key: pwindow
     base: pstate
   - type: Icon

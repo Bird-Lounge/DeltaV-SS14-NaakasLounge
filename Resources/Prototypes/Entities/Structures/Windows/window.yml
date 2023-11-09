@@ -195,14 +195,14 @@
   - type: Sprite
     drawdepth: WallTops
     sprite: Structures/Windows/diagonal.rsi
-    state: state0
+    state: wstate0
   - type: IconSmooth
     mode: Diagonal
     key: windows
-    base: state
+    base: wstate
   - type: Icon
     sprite: Structures/Windows/diagonal.rsi
-    state: state0
+    state: wstate0
   - type: Airtight
     noAirWhenFullyAirBlocked: false
     airBlockedDirection:

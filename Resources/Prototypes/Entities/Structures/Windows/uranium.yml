@@ -55,7 +55,6 @@
     sprite: Structures/Windows/diagonal.rsi
     state: ustate0
   - type: IconSmooth
-    mode: Diagonal
     key: uwindow
     base: ustate
   - type: Icon
@@ -80,8 +79,6 @@
             max: 2
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
-  - type: IconSmooth
-    base: uwindow
   - type: Construction
     graph: Window
     node: uraniumWindow

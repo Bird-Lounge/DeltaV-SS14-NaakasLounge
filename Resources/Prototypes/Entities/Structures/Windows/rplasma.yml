@@ -110,7 +110,6 @@
     sprite: Structures/Windows/diagonal.rsi
     state: rpstate0
   - type: IconSmooth
-    mode: Diagonal
     key: rpwindow
     base: rpstate
   - type: Icon
@@ -146,8 +145,6 @@
             max: 2
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
-  - type: IconSmooth
-    base: rpwindow
   - type: Construction
     graph: Window
     node: reinforcedPlasmaWindow
