@@ -81,3 +81,50 @@
         acts: [ "Destruction" ]
   - type: StaticPrice
     price: 30
+
+- type: entity #Naakas-Lounge addition
+  id: PlasmaWindowDiagonal
+  parent: WindowDiagonal
+  name: plasma window
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: Structures/Windows/diagonal.rsi
+    state: pstate0
+  - type: IconSmooth
+    mode: Diagonal
+    key: pwindow
+    base: pstate
+  - type: Icon
+    sprite: Structures/Windows/diagonal.rsi
+    state: pstate0
+  - type: Damageable
+    damageContainer: Inorganic
+    damageModifierSet: RGlass
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: GlassBreak
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardGlassPlasma:
+            min: 1
+            max: 2
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: Appearance
+  - type: DamageVisuals
+    thresholds: [4, 8, 12]
+    damageDivisor: 12
+    trackAllDamage: true
+    damageOverlay:
+      sprite: Structures/Windows/cracks.rsi
+  - type: StaticPrice
+    price: 60
+  - type: RadiationBlocker
+    resistance: 2

@@ -186,3 +186,38 @@
   - type: Icon
     sprite: Structures/Windows/directional.rsi
     state: frosted_window
+
+- type: entity #Naakas-Lounge addition
+  id: WindowDiagonal
+  parent: Window
+  suffix: diagonal
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: Structures/Windows/diagonal.rsi
+    state: state0
+  - type: IconSmooth
+    mode: Diagonal
+    key: windows
+    base: state
+  - type: Icon
+    sprite: Structures/Windows/diagonal.rsi
+    state: state0
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - South
+    - East
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "-0.5,-0.5"
+            - "0.5,0.5"
+            - "0.5,-0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - WallLayer

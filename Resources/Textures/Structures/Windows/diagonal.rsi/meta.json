@@ -1,0 +1,77 @@
+{
+    "version": 1,
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Sprited by PuroSlavKing (Github) for Space Station 14",
+    "states": [
+        {
+            "name": "state0"
+        },
+        {
+            "name": "state1"
+        },
+		{
+            "name": "tstate0"
+        },
+        {
+            "name": "tstate1"
+        },
+		{
+            "name": "pstate0"
+        },
+        {
+            "name": "pstate1"
+        },
+		{
+            "name": "ustate0"
+        },
+        {
+            "name": "ustate1"
+        },
+		{
+            "name": "rstate0"
+        },
+        {
+            "name": "rstate1"
+        },
+		{
+            "name": "rtstate0"
+        },
+        {
+            "name": "rtstate1"
+        },
+		{
+            "name": "rpstate0"
+        },
+        {
+            "name": "rpstate1"
+        },
+		{
+            "name": "rustate0"
+        },
+        {
+            "name": "rustate1"
+        },
+		{
+            "name": "state0"
+        },
+        {
+            "name": "state1"
+        },
+		{
+            "name": "tstate0"
+        },
+        {
+            "name": "tstate1"
+        },
+		{
+            "name": "pstate0"
+        },
+        {
+            "name": "pstate1"
+        }
+    ]
+}
