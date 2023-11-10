@@ -59,6 +59,9 @@
   - type: Icon
     sprite: Structures/Windows/diagonal.rsi
     state: ustate0
+  - type: Construction
+    graph: WindowDiagonal
+    node: uraniumWindowDiagonal
   - type: Damageable
     damageContainer: Inorganic
     damageModifierSet: RGlass
@@ -78,9 +81,6 @@
             max: 2
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
-  - type: Construction
-    graph: Window
-    node: uraniumWindow
   - type: Appearance
   - type: DamageVisuals
     thresholds: [4, 8, 12]

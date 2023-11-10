@@ -122,6 +122,9 @@
   - type: Icon
     sprite: Structures/Windows/diagonal.rsi
     state: rwstate0
+  - type: Construction
+    graph: WindowDiagonal
+    node: reinforcedWindowDiagonal
   - type: Repairable
     fuelCost: 10
     doAfterDelay: 2
@@ -150,9 +153,6 @@
             max: 2
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
-  - type: Construction
-    graph: Window
-    node: reinforcedWindow
   - type: Appearance
   - type: DamageVisuals
     thresholds: [4, 8, 12]

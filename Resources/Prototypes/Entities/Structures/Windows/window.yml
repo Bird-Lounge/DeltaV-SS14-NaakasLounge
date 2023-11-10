@@ -203,6 +203,9 @@
   - type: Icon
     sprite: Structures/Windows/diagonal.rsi
     state: wstate0
+  - type: Construction
+    graph: WindowDiagonal
+    node: windowDiagonal
   - type: Airtight
     noAirWhenFullyAirBlocked: false
     airBlockedDirection:

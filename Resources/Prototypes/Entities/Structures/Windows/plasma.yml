@@ -96,6 +96,9 @@
   - type: Icon
     sprite: Structures/Windows/diagonal.rsi
     state: pstate0
+  - type: Construction
+    graph: WindowDiagonal
+    node: plasmaWindowDiagonal
   - type: Damageable
     damageContainer: Inorganic
     damageModifierSet: RGlass
