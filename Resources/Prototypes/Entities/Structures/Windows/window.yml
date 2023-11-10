@@ -67,7 +67,7 @@
         acts: [ "Destruction" ]
   - type: Airtight
   - type: IconSmooth
-    key: windows
+    key: walls
     base: window
   - type: InteractionPopup
     interactSuccessString: comp-window-knock
@@ -198,7 +198,7 @@
     state: wstate0
   - type: IconSmooth
     mode: Diagonal
-    key: windows
+    key: walls
     base: wstate
   - type: Icon
     sprite: Structures/Windows/diagonal.rsi
