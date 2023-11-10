@@ -285,7 +285,7 @@
               doAfter: 2
 
     - node: reinforcedWindowDiagonal
-      entity: ReinforcedWindowDiagonal
+      entity: WindowReinforcedDiagonal
       edges:
         - to: start
           completed:
