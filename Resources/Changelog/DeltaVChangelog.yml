@@ -894,3 +894,27 @@ Entries:
       message: Revolutionaries are now fewer in number.
   id: 135
   time: '2023-11-10T15:08:26.0000000+00:00'
+- author: Colin-Tel
+  changes:
+    - type: Add
+      message: >-
+        Head lockers now contain their respective head's spare ID card where
+        they didn't already.
+  id: 136
+  time: '2023-11-11T01:25:33.0000000+00:00'
+- author: Velcroboy
+  changes:
+    - type: Add
+      message: The Hive is Alive!
+  id: 137
+  time: '2023-11-11T16:37:11.0000000+00:00'
+- author: FluffiestFloof
+  changes:
+    - type: Tweak
+      message: Glimmer Prober and Drainer are craftable once again.
+    - type: Fix
+      message: Fix Probers not making sounds depending on the glimmer levels.
+    - type: Add
+      message: Adds back the Psionic guidebook.
+  id: 138
+  time: '2023-11-11T17:39:37.0000000+00:00'
