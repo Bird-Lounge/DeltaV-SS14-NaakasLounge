@@ -48,7 +48,7 @@
     solution: beaker
   - type: Appearance
   - type: SolutionContainerVisuals
-    maxFillLevels: 6
+    maxFillLevels: 5
     fillBaseName: beaker
   - type: Damageable
     damageContainer: Inorganic
@@ -138,7 +138,7 @@
     solution: beaker
   - type: Appearance
   - type: SolutionContainerVisuals
-    maxFillLevels: 6
+    maxFillLevels: 5
     fillBaseName: beaker
   - type: Damageable
     damageContainer: Inorganic
@@ -196,7 +196,7 @@
         canMix: true
   - type: Appearance
   - type: SolutionContainerVisuals
-    maxFillLevels: 6
+    maxFillLevels: 5
     fillBaseName: beakerlarge
   - type: StaticPrice
     price: 40

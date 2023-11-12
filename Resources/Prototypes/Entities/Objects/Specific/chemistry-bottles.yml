@@ -22,7 +22,7 @@
         visible: false
   - type: Appearance
   - type: SolutionContainerVisuals
-    maxFillLevels: 6
+    maxFillLevels: 4
     fillBaseName: bottle-1-
   - type: Drink
   - type: SolutionContainerManager
@@ -101,13 +101,13 @@
   components:
   - type: Sprite
     layers:
-      - state: bottle-2
-      - state: bottle-2-1
+      - state: bottle-1
+      - state: bottle-1-1
         map: ["enum.SolutionContainerLayers.Fill"]
         visible: false
   - type: SolutionContainerVisuals
-    maxFillLevels: 6
-    fillBaseName: bottle-2-
+    maxFillLevels: 4
+    fillBaseName: bottle-1-
 
 - type: entity
   name: bottle
@@ -116,13 +116,13 @@
   components:
   - type: Sprite
     layers:
-      - state: bottle-3
-      - state: bottle-3-1
+      - state: bottle-1
+      - state: bottle-1-1
         map: ["enum.SolutionContainerLayers.Fill"]
         visible: false
   - type: SolutionContainerVisuals
-    maxFillLevels: 6
-    fillBaseName: bottle-3-
+    maxFillLevels: 4
+    fillBaseName: bottle-1-
 
 - type: entity
   name: bottle
@@ -131,13 +131,13 @@
   components:
   - type: Sprite
     layers:
-      - state: bottle-4
-      - state: bottle-4-1
+      - state: bottle-1
+      - state: bottle-1-1
         map: ["enum.SolutionContainerLayers.Fill"]
         visible: false
   - type: SolutionContainerVisuals
-    maxFillLevels: 6
-    fillBaseName: bottle-4-
+    maxFillLevels: 4
+    fillBaseName: bottle-1-
 
 - type: entity
   id: EpinephrineChemistryBottle
