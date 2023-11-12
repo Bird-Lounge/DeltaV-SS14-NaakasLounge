@@ -71,7 +71,7 @@
     state: uranium_reinforced_window
   - type: Construction
     graph: WindowDirectional
-    node: uraniumReinforcedWindowDirectional
+    node: reinforcedUraniumWindowDiagonal
   - type: Destructible
     thresholds:
     - trigger:

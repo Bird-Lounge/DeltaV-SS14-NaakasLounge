@@ -116,7 +116,7 @@
     state: rpstate0
   - type: Construction
     graph: WindowDiagonal
-    node: plasmaReinforcedWindowDiagonal
+    node: reinforcedPlasmaWindowDiagonal
   - type: Damageable
     damageContainer: Inorganic
     damageModifierSet: RGlass
