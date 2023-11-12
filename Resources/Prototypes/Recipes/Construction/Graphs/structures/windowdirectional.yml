@@ -112,7 +112,7 @@
             - tool: Anchoring
               doAfter: 3
 
-- node: uraniumWindowDirectional
+    - node: uraniumWindowDirectional
       entity: UraniumWindowDirectional
       edges:
         - to: start
