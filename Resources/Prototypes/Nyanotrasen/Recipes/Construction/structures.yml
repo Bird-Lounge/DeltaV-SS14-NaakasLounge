@@ -71,121 +71,7 @@
   conditions:
     - !type:TileNotBlocked
 
-- type: construction #Naakas-Lounge Addition
-  name: diagonal window
-  id: WindowDiagonal
-  graph: WindowDiagonal
-  startNode: start
-  targetNode: windowDiagonal
-  category: construction-category-structures
-  canBuildInImpassable: true
-  description: Don't cut yourself on the points.
-  conditions:
-    - !type:EmptyOrWindowValidInTile
-    - !type:NoWindowsInTile
-  icon:
-    sprite: Structures/Windows/diagonal.rsi
-    state: wstate0
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: true
-
-- type: construction #Naakas-Lounge Addition
-  name: diagonal reinforced window
-  id: ReinforcedWindowDiagonal
-  graph: WindowDiagonal
-  startNode: start
-  targetNode: reinforcedWindowDiagonal
-  category: construction-category-structures
-  canBuildInImpassable: true
-  description: Don't cut yourself on the points.
-  conditions:
-    - !type:EmptyOrWindowValidInTile
-    - !type:NoWindowsInTile
-  icon:
-    sprite: Structures/Windows/diagonal.rsi
-    state: rwstate0
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: true
-
-- type: construction #Naakas-Lounge Addition
-  name: diagonal plasma window
-  id: PlasmaWindowDiagonal
-  graph: WindowDiagonal
-  startNode: start
-  targetNode: plasmaWindowDiagonal
-  category: construction-category-structures
-  canBuildInImpassable: true
-  description: Don't cut yourself on the points.
-  conditions:
-    - !type:EmptyOrWindowValidInTile
-    - !type:NoWindowsInTile
-  icon:
-    sprite: Structures/Windows/diagonal.rsi
-    state: pstate0
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: true
-
-- type: construction #Naakas-Lounge Addition
-  name: diagonal reinforced plasma window
-  id: ReinforcedPlasmaWindowDiagonal
-  graph: WindowDiagonal
-  startNode: start
-  targetNode: reinforcedPlasmaWindowDiagonal
-  category: construction-category-structures
-  canBuildInImpassable: true
-  description: Don't cut yourself on the points.
-  conditions:
-    - !type:EmptyOrWindowValidInTile
-    - !type:NoWindowsInTile
-  icon:
-    sprite: Structures/Windows/diagonal.rsi
-    state: rpstate0
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: true
-
-- type: construction #Naakas-Lounge Addition
-  name: diagonal uranium window
-  id: UraniumWindowDiagonal
-  graph: WindowDiagonal
-  startNode: start
-  targetNode: uraniumWindowDiagonal
-  category: construction-category-structures
-  canBuildInImpassable: true
-  description: Don't cut yourself on the points.
-  conditions:
-    - !type:EmptyOrWindowValidInTile
-    - !type:NoWindowsInTile
-  icon:
-    sprite: Structures/Windows/diagonal.rsi
-    state: ustate0
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: true
-
-- type: construction #Naakas-Lounge Addition
-  name: diagonal reinforced uranium window
-  id: ReinforcedUraniumWindowDiagonal
-  graph: WindowDiagonal
-  startNode: start
-  targetNode: reinforcedUraniumWindowDiagonal
-  category: construction-category-structures
-  canBuildInImpassable: true
-  description: Don't cut yourself on the points.
-  conditions:
-    - !type:EmptyOrWindowValidInTile
-    - !type:NoWindowsInTile
-  icon:
-    sprite: Structures/Windows/diagonal.rsi
-    state: rustate0
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: true
-
-- type: construction
+- type: construction #Naakas-Lounge addition
   name: directional uranium window
   id: UraniumWindowDirectional
   graph: WindowDirectional
@@ -203,7 +89,7 @@
   objectType: Structure
   placementMode: SnapgridCenter
 
-- type: construction
+- type: construction #Naakas-Lounge addition
   name: directional reinforced uranium window
   id: UraniumReinforcedWindowDirectional
   graph: WindowDirectional
