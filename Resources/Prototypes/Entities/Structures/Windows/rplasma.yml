@@ -153,6 +153,6 @@
     damageDivisor: 36
     trackAllDamage: true
     damageOverlay:
-      sprite: Structures/Windows/cracks.rsi
+      sprite: Structures/Windows/cracks_diagonal.rsi
   - type: StaticPrice
     price: 132

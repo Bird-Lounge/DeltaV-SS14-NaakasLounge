@@ -224,3 +224,9 @@
         - FullTileMask
         layer:
         - WallLayer
+  - type: DamageVisuals
+    thresholds: [4, 8, 12]
+    damageDivisor: 2
+    trackAllDamage: true
+    damageOverlay:
+      sprite: Structures/Windows/cracks_diagonal.rsi

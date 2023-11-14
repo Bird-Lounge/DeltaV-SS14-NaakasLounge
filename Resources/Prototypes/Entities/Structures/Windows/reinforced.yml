@@ -159,4 +159,4 @@
     damageDivisor: 10
     trackAllDamage: true
     damageOverlay:
-      sprite: Structures/Windows/cracks.rsi
+      sprite: Structures/Windows/cracks_diagonal.rsi
