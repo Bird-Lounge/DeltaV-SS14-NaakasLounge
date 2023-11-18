@@ -92,6 +92,16 @@
   products:
     Licoxide: 1
 
+- type: reaction # Naakas-Lounge Addition
+  id: WeldingFuelEthHyd
+  reactants:
+    Ethanol:
+      amount: 2
+    Hydrogen:
+      amount: 3
+  products:
+    WeldingFuel: 2
+
 - type: reaction
   id: PlasticSheet # It's here because "haha look you can get smooth beautiful sheets of plastic from small cylindric beaker" (jokes aside: i dont know where should i put it)
   impact: Low
