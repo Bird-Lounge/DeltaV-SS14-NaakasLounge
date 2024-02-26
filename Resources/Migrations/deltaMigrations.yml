@@ -65,8 +65,6 @@ ClothingHeadHoodMystic: ClothingHeadHoodMysta
 VendingMachineMailDrobe: VendingMachineCourierDrobe
 
 #Delta V temporary changes. Remove When items are added.
-MetempsychoticMachine: CloningPod
-MetempsychoticMachineCircuitboard: CloningPodMachineCircuitboard
 ComputerShipyard: ComputerBroken
 ShipyardComputerCircuitboard: null
 SpawnMobGolemCult: null
@@ -83,3 +81,17 @@ WindoorSecureBrigLocked: WindoorSecureSecurityLawyerLocked
 
 # 2023-12-16
 PlushieLizardMirrored: PlushieLizard
+
+# 2024-1-22
+#Use these lights because they are better
+PoweredlightExterior: PoweredLightBlueInterior
+ExteriorLightTube: BlueLightTube
+
+# 2024-01-26
+SalvagePartsSpawnerSubSpace: SalvagePartsSpawnerMid
+
+# 2024-02-08
+SpawnVehicleAntagVehicle: null
+
+# 2024-02-26
+SpaceTickSpawnerNPC: SpaceTickSpawner

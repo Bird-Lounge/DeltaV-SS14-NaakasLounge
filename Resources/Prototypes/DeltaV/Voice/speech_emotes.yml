@@ -63,16 +63,16 @@
     - revving
     - revved
 
-- type: emote
-  id: Click
-  category: Vocal
-  chatMessages: [clicks.]
-  chatTriggers:
-    - clicks.
-    - click.
-    - click!
-    - clicking.
-    - clicked.
+#- type: emote
+#  id: Click
+#  category: Vocal
+#  chatMessages: [clicks.]
+#  chatTriggers:
+#    - clicks.
+#    - click.
+#    - click!
+#    - clicking.
+#    - clicked.
 
 - type: emote
   id: Caw
@@ -84,17 +84,6 @@
     - caw!
     - cawing
     - cawed
-
-- type: emote
-  id: Chirp
-  category: Vocal
-  chatMessages: [chirps.]
-  chatTriggers:
-    - chirps.
-    - chirp.
-    - chirp!
-    - chirping.
-    - chirped.
 
 #Vulpkanin
 - type: emote

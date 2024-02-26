@@ -6,17 +6,10 @@
   - type: StorageFill
     contents:
       - id: BoxSurvival
-        amount: 1
-      - id: ClothingOuterArmorBasic
-        amount: 1
-#      - id: WeaponSubMachineGunTypewriter # That dont fit >:(
-#        amount: 1
+      - id: WeaponSubMachineGunTypewriter
       - id: WeaponPistolViperWood
-        amount: 1
-#      - id: MagazinePistol # Ammo is too expensive nowadays (it causes test fails)
-#        amount: 1
-#      - id: BaseBallBat # THIS BAT IS TOO DAMN BIG!
-#        amount: 1
+      - id: MagazinePistol
+      - id: BaseBallBat
 
 - type: entity
   noSpawn: true

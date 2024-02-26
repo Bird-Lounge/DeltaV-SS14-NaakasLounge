@@ -21,13 +21,16 @@
       behaviors: #excess damage, don't spawn entities.
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WindowShatter
     - trigger:
         !type:DamageTrigger
         damage: 100
       behaviors:
       - !type:PlaySoundBehavior
         sound:
-          collection: GlassBreak
+          collection: WindowShatter
       - !type:SpawnEntitiesBehavior
         spawn:
           ShardGlassPlasma:
@@ -46,7 +49,7 @@
   - type: Appearance
   - type: DamageVisuals
     thresholds: [4, 8, 12]
-    damageDivisor: 36
+    damageDivisor: 6
     trackAllDamage: true
     damageOverlay:
       sprite: Structures/Windows/cracks.rsi
@@ -86,15 +89,15 @@
       behaviors:
       - !type:PlaySoundBehavior
         sound:
-          collection: GlassBreak
+          collection: WindowShatter
       - !type:SpawnEntitiesBehavior
         spawn:
           ShardGlassPlasma:
             min: 1
-            max: 2
+            max: 1
           PartRodMetal:
             min: 1
-            max: 2
+            max: 1
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: StaticPrice
@@ -102,8 +105,12 @@
 
 - type: entity #Naakas-Lounge addition
   id: ReinforcedPlasmaWindowDiagonal
-  parent: WindowDiagonal
-  name: reinforced plasma window
+  name: diagonal reinforced plasma window
+  suffix: diagonal
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
   components:
   - type: Sprite
     drawdepth: WallTops
@@ -136,23 +143,57 @@
       behaviors:
       - !type:PlaySoundBehavior
         sound:
-          collection: GlassBreak
+          collection: WindowShatter
       - !type:SpawnEntitiesBehavior
         spawn:
           ShardGlassPlasma:
             min: 1
-            max: 2
+            max: 1
           PartRodMetal:
             min: 1
-            max: 2
+            max: 1
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
-  - type: Appearance
+  - type: StaticPrice
+    price: 66
+
+- type: entity
+  parent: ReinforcedPlasmaWindow
+  id: ReinforcedPlasmaWindowDiagonal
+  suffix: diagonal
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: Structures/Windows/diagonal.rsi
+    state: rpstate0
+  - type: IconSmooth
+    base: rpstate
+  - type: Icon
+    sprite: Structures/Windows/reinforced_plasma_diagonal.rsi
+    state: state0
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "-0.5,-0.5"
+            - "0.5,0.5"
+            - "0.5,-0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
   - type: DamageVisuals
     thresholds: [4, 8, 12]
     damageDivisor: 36
     trackAllDamage: true
     damageOverlay:
       sprite: Structures/Windows/cracks_diagonal.rsi
-  - type: StaticPrice
-    price: 132
+  - type: Construction
+    graph: WindowDiagonal
+    node: reinforcedPlasmaWindowDiagonal
